@@ -1,0 +1,1322 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: #0a042f;
+    width: 100%;
+}
+.navbar .nav .nav-item  img{
+    width: 230px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.navbar .nav .nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .nav .nav-item {
+    margin-right: 40px;
+}
+.navbar .nav .nav-item a{
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px ;
+    color: white;
+    transition: 0.2s;
+}
+
+.navbar .nav .nav-item a:hover{
+    text-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 25px #2196f3;
+}
+
+.navbar .nav .nav-item .button1{
+    position: relative;
+    margin-left: 80px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #184782 ;
+    background:none ;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.navbar .nav .nav-item .button1:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    border: none;
+    transform: scale(0.9);
+}
+
+.navbar .nav .nav-item .button2:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    transform: scale(0.9);
+}
+
+
+.navbar .nav .nav-item .button2{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border: black;
+    background:#184782;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.navbar .nav .nav-item button a{
+
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.video{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+.desktop .Title1{
+    top: 220px;
+    left: 280px;
+    position: absolute;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 75px;
+}
+.desktop .Title2{
+    top: 410px;
+    left: 360px;
+    position: absolute;
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+}
+
+.desktop .button3{
+    position: absolute;
+    top: 530px;
+    left: 560px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border: black;
+    background:#184782;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.desktop .button3:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    border: none;
+    transform: scale(1.1);
+}
+.desktop .button3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.desktop .carousel11 {
+    border-radius: 10px;
+    background-color: rgba(100,195,220, 0.5);
+    position: absolute;
+    top: 700px;
+    margin-left: 70px;
+    width: 1200px;
+    padding: 20px 50px 20px 50px;
+}
+.desktop .carousel11 .card{
+    border-radius: 20px;
+    height: 230px;
+    border: none;
+    background-color:transparent;
+}
+
+.desktop .carousel11 .card .box1{
+    width: 80%;
+    height: 100%;
+    background-color: #182243;
+    transition: 0.7s;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desktop .carousel11 .card .box1:hover{
+    transform: scale(0.9);
+}
+.desktop .fon2{
+    background-color: #182243;
+    height: 1350px;
+    margin-top: -20px;
+}
+
+.desktop .carousel11 .card .box1 .circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.desktop .carousel11 .card .box1 .name{
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.desktop .carousel11 .card .box1 .circle1 img{
+    width: 100%;
+    height: 100%;
+}
+.boxxes .card{
+    padding: 0;
+    margin-top: 280px;
+    height: 500px;
+    background-color: rgba(100,195,220, 0.5);
+    border-radius: 10px;
+}
+
+.boxxes img{
+    width: 400px;
+    margin-left: -20px;
+}
+.boxxes .title{
+    color:white ;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxxes .text{
+    color:white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fon3 .col-md-8 .card{
+    margin-top: 40px;
+    background-color: rgba(100,195,220, 0.5);
+}
+.fon3 .col-md-8 .card .left{
+    width: 50%;
+    padding-left: 40px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+ }
+.fon3 .col-md-8 .card .right{
+    width: 50%;
+
+}
+.fon3 .col-md-8 .card .left .line1{
+     font-size: 35px;
+     font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: white;
+ }
+.fon3 .col-md-8 .card .left .line2{
+     font-size: 22px;
+    color: white;
+ }
+.fon3 .col-md-8 .card .left .line3 a{
+    text-decoration: none;
+}
+
+.fon3 .col-md-8 .card .left .line3 .button4{
+    width: 145px;
+    height: 45px;
+    background-color: #1a3569;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #0a042f;
+    transition: 0.3s;
+}
+
+.fon3 .col-md-8 .card .left .line3 .button4:hover{
+    border: none;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    transform: scale(0.9);
+}
+.fon3 .col-md-8 .card .left .line3 .button4 .foricon img{
+
+    width: 90%;
+    margin-left: -20px;
+    margin-right: -30px;
+}
+.fon3 .col-md-8 .card .left .line3 .button4 .foricon1 img{
+    margin-top: 5px;
+    width: 23%;
+    margin-left: -90px;
+
+}
+
+.fon3 .col-md-8 .card .left .line3 .button4 .forname1 .title{
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+    margin-left: -100px;
+}
+.fon3 .col-md-8 .card .left .line3 .button4 .forname1 .name{
+    margin-top: -6px;
+    font-size: 16px;
+    color: white;
+    margin-left: -110px;
+}
+.fon3 .col-md-8 .card .left .line3 .button4 .forname .title{
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+    margin-left: 6px;
+}
+.fon3 .col-md-8 .card .left .line3 .button4 .forname .name{
+    margin-top: -6px;
+    font-size: 16px;
+    color: white;
+}
+.fon3 .col-md-8 .card .right img{
+    margin-top: 10px;
+    width: 110%;
+}
+.fon3 .col-md-4 .card{
+    background-color: rgba(100,195,220, 0.5);
+    margin-top: 40px;
+}
+.fon3 .col-md-4 .card {
+    padding: 30px;
+}
+.fon3 .col-md-4 .card .line1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.fon3 .col-md-4 .card .line2{
+     font-size: 20px;
+     margin-top: 30px;
+    color: white;
+ }
+.fon3 .col-md-4 .card .line3{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fon3 .col-md-4 .card .line3 a{
+    text-decoration: none;
+    color: #670000;
+    font-weight: bold;
+
+}
+.fon3 .col-md-4 .card .line img{
+    width: 100%;
+    margin-top: -30px;
+}
+
+.fon4{
+    background-color: #2f5591;
+   text-align: center;
+}
+
+.fon4 .col-md-5 .card{
+    background-color: transparent;
+    margin-top: 70px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.fon4 .col-12 .text{
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    line-height: 60px;
+}
+
+.fon4 .col-md-5 .card .name{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.fon4 .col-md-5 .card .text{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.textTitle{
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.cardCourse{
+    width: 165px;
+    height: 190px;
+    margin-top: 60px;
+    padding: 0;
+    background-color: #1a5891;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.cardCourse:hover{
+    margin-top: 55px;
+    box-shadow: 0 0 5px #2196f3, 0 0 5px #2196f3, 0 0 20px #2196f3;
+}
+.cardCourse .box1 .box{
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: #0a042f;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.cardCourse .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardCourse .box img{
+    width: 100%;
+}
+
+
+
+.BgForCourse{
+    background-color:#1a3569;
+    padding-bottom: 100px;
+}
+
+.cardCourse .name{
+    margin-top: 5px;
+    text-align: center;
+    font-size:20px;
+    color: white;
+}
+
+.cardCourse .learners{
+    margin-top: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.bg-One{
+    background-color: #182243;
+    padding-bottom: 140px;
+}
+
+.bg-One .col-md-8 .text1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bg-One .col-md-8 .text2{
+    font-weight: bold;
+    font-size: 80px;
+    color: #6ccbff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bg-One .col-md-8 .text3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bg-One .col-md-2 .circleOne{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1890ff;
+}
+
+.bg-One .col-md-2 .circleTwo{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    overflow: hidden;
+}
+.bg-One .col-md-2 .circleTwo img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleThree img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleFive img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleSix img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleSeven img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleEight img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleTen img{
+    width: 100%;
+}
+.bg-One .col-md-2 .circleEleven img{
+    width: 100%;
+}
+
+.bg-One .col-md-2 .circleThree{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-left: -20px;
+    overflow: hidden;
+}
+
+.bg-One .col-md-2 .circleFour{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 100px;
+    margin-left: 120px;
+    overflow: hidden;
+}
+
+.bg-One .col-md-2 .circleFive{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 60px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+
+.bg-One .col-md-2 .circleSix{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 30px;
+    margin-left: 140px;
+    overflow: hidden;
+}
+
+.bg-One .forVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-One .forVideo video{
+    margin-top: 80px;
+    border-radius: 30px;
+    width: 90%;
+    box-shadow: 0 0 5px #2196f3, 0 0 5px #2196f3, 0 0 20px #2196f3;
+}
+
+.bg-One .col-md-2 .circleSeven{
+     width: 90px;
+     height: 90px;
+     border-radius: 50%;
+     background-color: #1890ff;
+     margin-top: 80px;
+     margin-left: 110px;
+    overflow: hidden;
+ }
+.bg-One .col-md-2 .circleEight{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 130px;
+    margin-left: -20px;
+    overflow: hidden;
+}
+
+
+.bg-One .col-md-2 .circleNine{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 130px;
+    margin-left: -20px;
+}
+
+.bg-One .col-md-2 .circleTen{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: -80px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.bg-One .col-md-2 .circleEleven{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    margin-top: 80px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.BgForMain{
+    height: 120px;
+    background-color: #2f5591;
+}
+
+.BgForMain .textMain{
+    color: white;
+    font-weight: bold;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.BgForMain .textMain1{
+    color: white;
+    font-weight: bold;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.BgForMain .textMain2{
+    color: white;
+    font-weight: bold;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.BgForMain .textMain2 b{
+    color: #69d6ff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bgFonText{
+    color: white;
+    background-color: #0a042f;
+}
+
+.textWhy{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+}
+.textWhy b{
+    width: 100%;
+    background-color: #2f5591;
+
+}
+.Cards .card{
+    margin-top: 40px;
+    background-color: #2f5591;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.Cards img{
+    width: 100%;
+    margin-top: -130px;
+}
+.Cards .Name{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Cards .text{
+    margin-top: 10px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.ButtonFon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonFon .button3{
+    top: 530px;
+    left: 560px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border: black;
+    background:#184782;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.ButtonFon .button3:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    border: none;
+    transform: scale(1.1);
+}
+.ButtonFon .button3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.ButtonFon .TexT{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.BGFONDARK{
+    padding-top: 70px;
+    background-color: #2D3846;
+}
+
+.BGFONDARK .textONE{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.BGFONDARK .textONE .Pro{
+    margin-top: 12px;
+    color: #6A4315;
+    width: 120px;
+    padding: 2px;
+    font-size: 35px;
+    margin-left: 20px;
+    background-color: #FBB461;
+    border-radius: 30px;
+}
+
+.FooterCard .card{
+    background-color: transparent;
+    padding: 40px;
+    height: 320px;
+    border: 2px solid #6B7F99;
+    margin-bottom: 100px;
+}
+.FooterCard .card .text1{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.FooterCard .card .text2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FBB461;
+    margin-top: 20px;
+}
+.FooterCard .card .text3{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #C8D2DB;
+}
+.FooterCard .card .text3 b{
+    color: #FBA653;
+}
+
+.FooterCheck{
+    margin-right: 28px;
+}
+.FooterCheck .ForCheck img{
+    width: 37px;
+
+}
+.FooterCheck .textForName{
+    font-weight: bold;
+    font-size: 25px;
+    color: #FBB461;
+}
+.row .ForBtn .button5{
+    top: 530px;
+    left: 560px;
+    width: 750px;
+    height: 65px;
+    border: none;
+    border: black;
+    background:#FBB461;
+    border-radius: 3px;
+    transition: 0.4s;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.row .ForBtn .button5:hover{
+    background: #FBB461;
+    box-shadow: 0 0 10px #FBB461, 0 0 10px #FBB461, 0 0 40px #FBB461;
+    border: none;
+
+}
+.row .ForBtn .button5 a{
+    text-decoration: none;
+    color: #6A4315;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+}
+.forPerson{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.icon1{
+    position: absolute;
+    top: -35px;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px #d6d6d6, 0 0 5px #d6d6d6, 0 0 20px #d6d6d6;
+}
+.icon1 img{
+    width: 80%;
+}
+.icon2{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    display: flex;
+    height: 60px;
+    top: 100px;
+    right: -100px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #d6d6d6, 0 0 5px #d6d6d6, 0 0 20px #d6d6d6;
+    line-height: 16px;
+    font-weight: bold;
+}
+.icon2 img{
+    margin-right: 14px;
+    width: 35px;
+    height: 36px;
+}
+.icon3{
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    width: 205px;
+    display: flex;
+    height: 60px;
+    bottom: 30px;
+    left: -100px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #d6d6d6, 0 0 5px #d6d6d6, 0 0 20px #d6d6d6;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.icon3 img{
+    margin-right: 10px;
+    width: 90px;
+    height: 36px;
+}
+.personImg{
+    border-radius: 10px;
+}
+.TitlePerson{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.NamePerson{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #71d1ff;
+    font-family: "Ink Free";
+}
+.TextPerson{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+.linePerson{
+    width: 97%;
+    height: 1px;
+    background-color: #b5b5b5;
+    margin-bottom: 40px;
+}
+.Thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+.Thanks img{
+    width: 30px;
+}
+.BgForPerson{
+    background-color: #2f5591;
+}
+.BgForFooter{
+    background-color: #F2F5F7;
+    height: 450px;
+
+}
+.textFooter{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #363636;
+    text-align: center;
+}
+.boxFooter1{
+    width: 220px;
+    height: 120px;
+    margin-right: 90px;
+}
+.boxFooter1 .lineOne{
+    margin-top: 60px;
+    display: flex;
+}
+.boxFooter1 .lineOne img{
+    width: 34px;
+}
+
+.boxFooter1 .lineTwo{
+    position: relative;
+}
+.boxFooter1 .lineTwo .flover1{
+    position: absolute;
+    width: 40px;
+    left: 5px;
+    top: 0;
+}
+.boxFooter1 .lineTwo .flover{
+    top: 0;
+    width: 46px;
+    position: absolute;
+    right: 0;
+}
+.boxFooter1 .lineTwo .tinyTex1{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #6B7F99;
+    font-weight: bold;
+}
+.boxFooter1 .lineTwo .tinyText{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #6B7F99;
+    text-align: center;
+}
+.BgForFooter1{
+    background-color: #1F1E28;
+    height: 600px;
+
+}
+.textFooter1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.forFooter1 .button3{
+    top: 530px;
+    left: 560px;
+    width: 450px;
+    height: 50px;
+    border: none;
+    border: black;
+    background:#184782;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.forFooter1 .button3:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    border: none;
+    transform: scale(1.1);
+}
+.forFooter1 .button3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.lineFooter{
+    margin-top: 200px;
+    width: 100%;
+    height: 1px;
+    background-color: #4e4765;
+}
+
+.circleChapter{
+    border-radius: 0 0 200px 200px;
+    height: 340px;
+    background-color: #1a5891;
+    display: flex;
+    padding-right: 40px;
+}
+.Pyhton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0a042f;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.textChapter{
+    margin-left: 30px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+
+}
+.textChapter .Name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.prev{
+    margin-left: 40px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+.prev a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.prev  :hover{
+    color: white;
+    margin-left: -5px;
+}
+
+.ChapterBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 80%;
+    height: 120px;
+    background-color: #0a042f;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.ChapterPhoto{
+    width: 60px;
+    height: 60px;
+    background-color: #1890ff;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.ChapterName{
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.ChapterBtn img{
+    margin-right: 20px;
+    width: 40px;
+}
+.Topp{
+    margin-bottom: 200px;
+    margin-top: -150px;
+}
+.lessonBox{
+    margin-top: -10px;
+    margin-left: 90px;
+    width: 80%;
+    background-color: #0a042f;
+
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+.boxx1 img{
+    width: 30px;
+    height: 30px;
+}
+.boxx1{
+    margin-top: 40px;
+    display: flex;
+    width: 180px;
+    margin-left: 20px;
+}
+.boxx1 .name{
+    line-height: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.boxx1 a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+
+.FooterBtn .line3 a{
+    text-decoration: none;
+}
+
+.FooterBtn .line3 .button4{
+    width: 145px;
+    height: 45px;
+    background-color: #1a3569;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #0a042f;
+    transition: 0.3s;
+}
+
+.FooterBtn .line3 .button4:hover{
+    border: none;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
+    transform: scale(0.9);
+}
+.FooterBtn .line3 .button4 .foricon img{
+
+    width: 90%;
+    margin-left: -20px;
+    margin-right: -30px;
+}
+.FooterBtn .line3 .button4 .foricon1 img{
+    margin-top: 5px;
+    width: 23%;
+    margin-left: -90px;
+
+}
+
+.FooterBtn .line3 .button4 .forname1 .title{
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+    margin-left: -100px;
+}
+.FooterBtn .line3 .button4 .forname1 .name{
+    margin-top: -6px;
+    font-size: 16px;
+    color: white;
+    margin-left: -110px;
+}
+.FooterBtn .line3 .button4 .forname .title{
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+    margin-left: 6px;
+}
+.FooterBtn .line3 .button4 .forname .name{
+    margin-top: -6px;
+    font-size: 16px;
+    color: white;
+}
+
+.lessonCard{
+    position: relative;
+    margin-bottom: 60px;
+    background-color: #D3E9F9;
+    /*background-image: url("/public/icons/background1.jpg");*/
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.lessonCard .LessonName{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #213a5d;
+}
+.lesson{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+}
+.sloy{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sloy img{
+    width: 60px;
+}
+.lessonBox a{
+    text-decoration: none;
+}
+.prev2{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.prev2 a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+.prev2 :hover{
+   margin-left: -5px;
+    color: black;
+}
+
+.UserName{
+    font-size: 18px;
+    margin-left: 180px;
+    color: white;
+    font-weight: bold;
+
+}
+.signImg{
+    cursor: pointer;
+    margin: 0 0px 0 0 !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.circleProfile{
+    margin-left: 90px;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    background-color: #1890ff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+
+
+.profile{
+    border-radius: 10px;
+    top: 78px;
+    right: 85px;
+    width: 170px;
+    height: 180px;
+    z-index: 3;
+    background-color:rgba(20,125,205,0.6) ;
+    position: absolute;
+}
+
+.profile .line {
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+
+}
+.NameUser{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.logOutMain{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.3s;
+    border-radius: 16px;
+}
+.logOutMain:hover{
+    background-color:rgba(20,125,205,0.9) ;
+}
+.settings{
+    margin-left: 10px;
+}
+.help{
+    margin-left: 10px;
+}
+.logOut{
+    margin-left: 10px;
+}
+.disableddd{
+    pointer-events: none;
+}
